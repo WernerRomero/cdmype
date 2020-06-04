@@ -16,7 +16,7 @@
 											id_horario ='$cboHorario' 
 						WHERE id_inscripcion='$id'"; 
 			}else{ 
-				$sql = "INSERT INTO inscripcion VALUES('','$idCliente','$cboHorario')"; 
+				$sql = "INSERT INTO inscripcion VALUES(null,'$idCliente','$cboHorario')"; 
 			}$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 		} else{echo 'Codigo Incorrecto'; }
 		

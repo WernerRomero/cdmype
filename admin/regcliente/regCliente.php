@@ -34,12 +34,13 @@
 					instituto_procede='$instituto_procede' 
 				WHERE id_cliente='$id'"; 
 	}else{ 
-		list($anio, $mes, $dias)=split('[/.-]', $fecha_reg);
+		
+		list($anio, $mes, $dias) = explode( '-', $fecha_reg);
 		$newanio = substr($anio, -2);
 		$Codcliente = 'ai-'.'0'.$count.$newanio;
 
 		$sql = "INSERT INTO cliente VALUES( 
-						'',	
+						null,	
 						'$Codcliente', 
 						'$fecha_reg', 
 						'$nombre_cliente', 

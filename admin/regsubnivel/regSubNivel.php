@@ -8,7 +8,7 @@
 									nombre_del_sub_nivel='$nomSubNivel' 
 				WHERE id_sub_nivel='$id'"; 
 	}else{ 
-		$sql = "INSERT INTO sub_nivel VALUES('','$idNivel','$nomSubNivel')"; 
+		$sql = "INSERT INTO sub_nivel VALUES(null,'$idNivel','$nomSubNivel')"; 
 	}
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaSubNivel.php');

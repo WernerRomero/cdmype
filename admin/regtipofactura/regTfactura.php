@@ -8,7 +8,7 @@
 										abreviacion='$abre' 
 				WHERE id_factura='$id' "; 
 	}else{ 
-		$sql = "INSERT INTO tipo_factura VALUES('','$tipo', '$abre')"; 
+		$sql = "INSERT INTO tipo_factura VALUES(null,'$tipo', '$abre')"; 
 	}
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaTfactura.php');

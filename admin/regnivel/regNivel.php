@@ -7,7 +7,7 @@
 								nombre_del_nivel='$nomNivel' 
 							WHERE id_nivel='$id'"; 
 	}else{ 
-		$sql = "INSERT INTO nivel VALUES('','$nomNivel')"; 
+		$sql = "INSERT INTO nivel VALUES(null,'$nomNivel')"; 
 	}
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaNivel.php');

@@ -8,7 +8,7 @@
 								id_ciclo 	 = '$cbociclo', 
 								numero_cuota = '$numero_cuota' 
 				WHERE id_cuota='$id'"; 
-	}else{ $sql = "INSERT INTO cuota VALUES('','$fecha', '$cbociclo', '$numero_cuota')"; }
+	}else{ $sql = "INSERT INTO cuota VALUES(null,'$fecha', '$cbociclo', '$numero_cuota')"; }
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaCuota.php');
 ?>

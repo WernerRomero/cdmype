@@ -12,7 +12,7 @@
 									inicio_fin_clase='$inicio_fin', 
 									id_dia2='$cbodiados' 
 				WHERE id_horario='$id'"; 
-		}else{ $sql = "INSERT INTO horario VALUES( '', '$cbociclo', '$cbonivel', '$cbodiauno', '$inicio', '$fin', '$inicio_fin', '$cbodiados' )"; 
+		}else{ $sql = "INSERT INTO horario VALUES( null, '$cbociclo', '$cbonivel', '$cbodiauno', '$inicio', '$fin', '$inicio_fin', '$cbodiados' )"; 
 	}
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaHorario.php');

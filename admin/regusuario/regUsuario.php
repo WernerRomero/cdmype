@@ -16,7 +16,7 @@
 									password='$contrasenia' 
 				WHERE id_usuario='$id'"; 
 	}else{ 
-		$sql = "INSERT INTO usuario VALUES( '', '$nombre', '$apellido', '$tipo', '$usuario', '$contrasenia' )"; 
+		$sql = "INSERT INTO usuario VALUES( null, '$nombre', '$apellido', '$tipo', '$usuario', '$contrasenia' )"; 
 	}
 	$resp = mysqli_query($link, $sql) or die(mysqli_error($link)); 
 	include('busquedaUsuario.php');
