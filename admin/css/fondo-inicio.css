@@ -1,0 +1,126 @@
+@charset utf-8;
+
+.inicio{
+	height: 100%;
+	text-align: center;
+}
+
+.inicio #logoAI{
+	margin-top: 110px;
+	width: 80%;
+	height: 350px;
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) and (min-width: 5px){
+	#main-logo{
+		width: 220px;
+		text-align: left;
+	}
+	.inicio #logoAI{
+		margin-top: 50%;
+	}
+}
+
+/* Smartphones (portrit and landscape) */
+@media only screen and (min-width: 321px) and (max-width: 480px){
+	#main-logo{
+		width: 220px;
+	}
+	.inicio #logoAI{
+		margin-top: 50%;
+	}
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width: 321px) {
+	#main-logo{
+		width: 220px;
+	}
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 320px) {
+	#main-logo{
+		width: 220px;
+		text-align: left;
+	}
+	.inicio #logoAI{
+		margin-top: 50%;
+	}
+}
+
+/* 481px - 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.inicio #logoAI{
+		margin-top: 150px;
+		width: 85%;
+		height: 85%;
+	}
+}
+
+/* iPads (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.inicio #logoAI{
+		margin-top: 130px;
+		height: 450px;
+	}
+}
+
+/* iPads (landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.inicio #logoAI{
+		margin-top: 120px;
+	}
+}
+
+/* iPads (portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	.inicio #logoAI{
+		margin-top: 130px;
+		height: 450px;
+	}
+}
+
+/* 1025px - 1223px */
+@media only screen and (min-width: 1025px) and (max-width: 1223px){
+	.inicio #logoAI{
+		margin-top: 120px;
+		height: 450px;
+		width: 75%;
+	}
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1224px) {
+	.inicio{
+		width: 100%;
+	}
+	.inicio #logoAI{
+		margin-top: 8%;
+		width: 52%;
+		height: 52%;
+	}
+}
+
+/* large screens */
+@media only screen and (min-width: 1824px) {
+	.inicio{
+		width: 100%;
+	}	
+	.inicio #logoAI{
+		margin-top: 7%;
+		width: 52%;
+		height: 52%
+	}
+	#main-logo{
+		width: 300px;
+	}
+}
+
+.apps{
+	margin-top: 120px;
+	margin-left: 40%;
+	display: none;
+	position: absolute;
+}

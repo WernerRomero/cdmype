@@ -1,0 +1,48 @@
+	html, body{
+	margin-top: -10px;
+}
+.borde{
+	border-style: dashed;
+	width: 480px;
+	height: 280px;
+	margin-left: 0px;
+}
+
+#logoAIs{
+	width: 100%;
+	height: 70px;
+}
+
+.direccion{
+	margin-top: 10px;
+	font-size: 9px;
+	text-align: center;
+}
+
+.codigo{
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.cantidadnum{
+	text-align: right;
+}
+
+.font{
+	font-size: 12px;
+}
+
+.empresa{
+	font-size: 10px;
+}
+.iz{
+	text-align: left; 
+}
+
+.borde2{
+	border-style: dashed;
+	width: 480px;
+	height: 280px;
+	margin-left: 500px;
+	margin-top: -280px;
+}
