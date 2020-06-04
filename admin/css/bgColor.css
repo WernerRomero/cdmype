@@ -1,0 +1,75 @@
+@charset utf-8;
+
+.inicio{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.inicio #logoAI{
+	margin-top: 30px;
+	width: 80%;
+	height: 350px;
+}
+
+.registro h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.registro{
+	width: 80%;
+}
+
+.error{
+	border: #000 solid 2px;
+	background-color: #FF0000;
+	color: #fff;
+
+}
+  
+/* Login */
+.apps{ 
+	display:none;
+	position: relative;
+}
+
+.cerrar{ 
+	display:inline; 
+	float:right; 
+}  
+
+table, .btnp{
+	border:1px solid #CCC;	
+}
+
+table thead, .btnp{
+	background: #000;
+	color: #FFF;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bolder;	
+}
+.btnp{color: #fff;}
+
+.btnp input{color: #000;}
+
+table tbody tr:hover{
+	background: #DFDEDE;
+}
+
+.form-signin{
+	width: 380px;
+	padding: 15px 35px 45px;
+	background-color: #DCDCDC;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+#login p{
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #FF0000;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}

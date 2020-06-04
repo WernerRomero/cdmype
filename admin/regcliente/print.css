@@ -1,0 +1,133 @@
+.img, .bordedir{
+	margin-top: -75px;
+	width: 50%;
+	height: 150px;
+	margin-left: -10px;
+}
+.img img{
+	height: 100%;
+	width: 100%;
+}
+.bordedir{
+	margin-left:  50%;
+	margin-top: -155px; 
+	text-align: center;
+	font-size: 15px;
+	font-size: 1.5rem;
+	border: solid 1px;
+}
+.hoja{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	margin-bottom: 45px;
+}
+.contenedorDatos{
+	border:solid 1px;
+	margin-top: 20px;
+	width: 100%;
+}
+	.datos{
+		width: 15%;
+		height: 65px;
+		border: solid 1px;
+		text-align: center;
+		margin-left: 13px;
+	}
+	.datosP{
+		width: 80.8%;
+		height: 65px;
+		margin-left: 17%;
+		margin-top: -65px;
+		border: solid 1px;
+		text-align: left;
+	}
+	.datosP p, .nombres p, .fecha p, .edad p, .direccion p, .municipio p, .telCasa p, .cel p, .compania p, .correo p,.instituto p{
+		margin-left: 25px;
+	}
+	.nombres{
+		width: 96%;
+		height: 95px;
+		text-align: left;
+		border:solid 1px;
+		margin-left: 13px;
+	}
+	.fecha, .edad, .direccion, .municipio{
+		width: 48%;
+		height: 95px;
+		text-align: left;
+		border:solid 1px;
+	}
+	.fecha{
+		margin-left: 13px;
+	}
+	.edad{
+		margin-left: 49.7%;
+		margin-top: -95px;
+		width: 48.3%;
+	}
+	.direccion{
+		width: 66.3%;
+		height: 130px;
+		margin-left: 13px;
+	}
+	.municipio{
+		width: 30%;
+		margin-left: 68%;
+		margin-top: -130px;
+		height: 130px;
+	}
+	.telCasa, .cel, .compania{
+		width: 32%;
+		height: 95px;
+		border: solid 1px;
+		text-align: left;
+	}
+	.telCasa{
+		margin-left: 13px;
+	}
+	.compania{
+		margin-left: 65.7%;
+		margin-top: -95px;
+		width: 32.3%;
+	}
+	.correo, .instituto{
+		width: 96%;
+		height: 95px;
+		text-align: left;
+		border:solid 1px;
+		margin-left: 13px;
+	}
+
+	
+	.nombreP, .parentesco, .lugar{
+		width: 66.5%;
+		height: 95px;
+		text-align: left;
+		border: solid 1px;
+	}
+	.nombreP{
+		margin-left: 13px;
+	}
+	.parentesco{
+		width: 29.5%;
+		margin-left: 68.5%;
+		margin-top: -96px;
+		height: 96px;
+	}
+
+	.nombreP p, .parentesco p, .lugar p{
+		margin-left: 25px;
+	}
+	.lugar{
+		width: 96%;
+		margin-left: 13px;
+	}
+
+	.mayor{
+		margin-top: 10px;
+		margin-left: 13px;
+		font-size: 15px;
+		font-size: 1.5rem;
+		text-align: left;
+	}
