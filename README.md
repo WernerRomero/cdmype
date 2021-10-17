@@ -4,7 +4,7 @@ El proyeto fue creado en el 2014, Junto a CDMYPE en la UGB, como proyecto para u
 
 Comentar tambien, que la aplicación esta desarrollada unicamente con PHP, sin hacer uso de la estructura MVC.
 
-A continuación puedes probar la aplicación haciendo clic [http://wernerromero.260mb.net/cdmype/](http://wernerromero.260mb.net/cdmype/) , Usuario y contraseña es: admin
+
 
 ## Pagina de Bienvenida
 
